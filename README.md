@@ -64,7 +64,7 @@ Register with the email you put in `ADMIN_EMAIL` to get the admin role.
 4. Open the site, register with `ADMIN_EMAIL`, and use **Admin** to manage tools.
 
 ## Content and licensing
-All text and the illustration are original. Tool names identify the tools only. There are no logos or third-party images, and every tool links to its official site. AssistHub is not affiliated with or endorsed by any listed tool. Tool details can change, so check each entry before relying on it. Code is MIT licensed (replace `[Your Name]` in `LICENSE`).
+All text and the illustration are original. Tool names identify the tools only. There are no logos or third-party images, and every tool links to its official site. AssistHub is not affiliated with or endorsed by any listed tool. Tool details can change, so check each entry before relying on it. Code is MIT licensed.
 
 ## Next steps
 httpOnly cookie sessions, email verification and password reset, notification emails, Playwright end-to-end tests, Hindi and English UI.
