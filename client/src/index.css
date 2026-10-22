@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --color-paper: var(--c-paper);
+  --color-wash: var(--c-wash);
+  --color-ink: var(--c-ink);
+  --color-brand: var(--c-brand);
+  --color-onbrand: var(--c-onbrand);
+}
+
+:root {
+  --c-paper: #fffcf0;
+  --c-wash: #f0fafb;
+  --c-ink: #14143c;
+  --c-brand: #000080;
+  --c-onbrand: #ffffff;
+}
+[data-contrast="high"] {
+  --c-paper: #000000;
+  --c-wash: #000000;
+  --c-ink: #ffffff;
+  --c-brand: #ffff00;
+  --c-onbrand: #000000;
+}
+
+html { font-size: var(--base-size, 100%); scroll-behavior: smooth; scroll-padding-top: calc(var(--header-h, 8rem) + 1rem); }
+body { background: var(--c-paper); color: var(--c-ink); font-family: var(--font-sans); line-height: 1.6; }
+:focus-visible { outline: 4px solid #ff9f1c; outline-offset: 3px; }
+[data-contrast="high"] :focus-visible { outline-color: #00ffff; }
+h1, h2, h3 { line-height: 1.2; }
+.sr-only-live { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
