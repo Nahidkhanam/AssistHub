@@ -3,6 +3,8 @@
 A full-stack, accessibility-first web app that helps blind and low-vision people find free and built-in assistive tools,
 and helps website owners find common accessibility barriers.
 
+**Live demo:** [https://assist-hub-five.vercel.app](https://assist-hub-five.vercel.app)
+
 **Stack:** React 18, TypeScript, Tailwind CSS v4, React Router · Node.js, Express 5, TypeScript, PostgreSQL (`pg`), Zod, JWT, bcrypt · Vitest, Supertest, Testing Library, jest-axe
 
 ## Features
